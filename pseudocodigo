@@ -1,0 +1,26 @@
+class Product
+  
+  name=""
+  barcode=0
+  expiration_date=""
+  amount=0
+  price=0
+  
+  change_amount(newamount)
+  
+class Personal
+
+  name=""
+  rut=0
+  age=0
+  work_days=""
+  w_hours_daily=0
+  
+  change_work_hours_daily(neww_hours_daily)
+  
+class Clients
+
+  reciept_number=0
+  products_code=0
+  payment=0
+  
