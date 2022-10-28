@@ -1,26 +1,36 @@
 class Product
+
+##atributos
+  bar_code = 0
+  name_product = ''
+  expiration_date = ''
+  amount = 0
+  price = 0
   
-  name=""
-  barcode=0
-  expiration_date=""
-  amount=0
-  price=0
-  
+##metodos (función)
   change_amount(newamount)
   
 class Personal
 
-  name=""
-  rut=0
-  age=0
-  work_days=""
-  w_hours_daily=0
+##atributos
+  name = ''
+  rut = 0
+  age = 0
+  work_days=''
+  w_hours_daily = 0
+  salary = 0
   
+##metodos (función)
   change_work_hours_daily(neww_hours_daily)
   
 class Clients
 
-  reciept_number=0
-  products_code=0
-  payment=0
+##atributos
+  reciept_number = 0
+  name_product = ''
+  bar_code = 0
+  payment = 0
+  
+##metodos (función)
+  
   
