@@ -21,6 +21,7 @@ class Personal
   salary = 0
   
 ##metodos (función)
+  change_work_days(newwork_days)
   change_work_hours_daily(neww_hours_daily)
   
 class Clients
@@ -31,6 +32,9 @@ class Clients
   bar_code = 0
   payment = 0
   
+  
 ##metodos (función)
+  
+  exchange_amount(change)
   
   
